@@ -34,7 +34,7 @@ print(f"Starts with D: {a}")
 # whose name ends in "e".
 
 b = [p.name for p in humans if p.name[-1] == 'e']
-print(f"Ends with e: {e}")
+print(f"Ends with e: {b}")
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with any letter between 'C' and 'G' inclusive.
