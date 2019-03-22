@@ -83,9 +83,9 @@ for c in cities:
 # TODO Get latitude and longitude values from the user
 
 pointOne = input(
-    'Please enter coordinates (format lat, lon) for city one: ').split(',')
+    'Please enter comma separated coordinates for first: ').split(',')
 pointTwo = input(
-    'Please enter coordinates (format lat, lon) for city two: ').split(',')
+    'Please enter comma separated coordinates for second: ').split(',')
 
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
