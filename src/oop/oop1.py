@@ -17,3 +17,6 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+class Vehicle():
+    def __init__(self, num_wheels):
+        self.num_wheels = num_wheels
